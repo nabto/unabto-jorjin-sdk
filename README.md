@@ -34,7 +34,13 @@ git clone --recursive https://github.com/nabto/unabto-jorjin-sdk
 ```
 then change directory to the `unabto-jorjin-sdk` folder and run
 ```shell
-bash Make.sh
+copy-unabto.cmd # Windows
+copy-unabto.sh  # Linux
+```
+to copy the files from the unabto submodule into the appropriate folders. Afterwards you can create a zip library with
+```shell
+make-lib.cmd # Windows
+make-lib.sh  # Linux
 ```
 
 OR

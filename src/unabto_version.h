@@ -1,2 +1,0 @@
-#define RELEASE_MAJOR 2
-#define RELEASE_MINOR 21889
